@@ -21,7 +21,7 @@ function generadorCartas() {
 
     const paloTopHtml = document.getElementById("iconTop"); 
     const valorHtml = document.getElementById("valor");
-
+    
     paloTopHtml.innerHTML = `${palo}`; 
     valorHtml.innerHTML = `${valor}`;
     
